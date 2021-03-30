@@ -11,9 +11,13 @@ h1{
 
 }
 
+h2{
+
+}
+
 body{
     background: rgb(245, 245, 245);
-    color: black;
+    color: rgb(58, 57, 57);
     line-height: 22px;
     width: 800px;
     height: auto;
@@ -28,6 +32,26 @@ header{
     color: white;
 }
 
+main{
+    width: 35%;
+    height: 700px;
+    float: left;
+    background: rgb(230, 230, 230);
+    padding: 20px 5px 20px 50px;
+}
+
+aside{
+    width: 65%;
+    height: 700px;
+    float: left;
+    padding: 20px 10px 20px 50px;
+}
+
+footer{
+    clear: both;
+    height: 50px;
+    background: #006363;
+}
 .photo{
     width: 20%;
     float: left; 
@@ -64,6 +88,43 @@ div.data{
     font-size: 14px;
     position: relative;
     left:20px;
-    bottom: 22px;
+    bottom: 21px;
     margin-left: 10px;
+}
+
+.about{
+    height: 30%;
+    width: 100%;
+}
+
+.interests{
+    height: 20%;
+    width: 100%;
+}
+
+.reference{
+    height: 30%;
+    width: 100%;
+}
+
+.awwards{
+    height: 20%;
+    width: 100%;
+}
+
+.icon_circle{
+    width: 35px;
+    height: 35px;
+    background: #006363;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+}
+
+h2{
+    position: relative;
+    left: 40px;
+    bottom: 28px;
+    margin-left: 15px;
 }
