@@ -11,12 +11,8 @@ h1{
 
 }
 
-h2{
-
-}
-
 body{
-    background: rgb(245, 245, 245);
+    background: whitesmoke;
     color: rgb(58, 57, 57);
     line-height: 22px;
     width: 800px;
@@ -44,13 +40,15 @@ aside{
     width: 65%;
     height: 700px;
     float: left;
-    padding: 20px 10px 20px 50px;
+    padding: 20px 10px 20px 20px;
+    background: white;
 }
 
 footer{
     clear: both;
     height: 50px;
     background: #006363;
+    color: white;
 }
 .photo{
     width: 20%;
@@ -128,3 +126,69 @@ h2{
     bottom: 28px;
     margin-left: 15px;
 }
+
+figure{
+    width: 33%;
+    float: left;
+}
+
+figcaption{
+    margin-top: 5px;
+    text-align: inherit;
+}
+
+.icon_inter{
+    width: 40px;
+    height: 40px;
+    background:rgb(230, 230, 230);
+    color: #006363;
+    border: 5px solid #006363;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+.profile_data{
+    position: relative;
+    bottom: 10px;
+}
+
+.bulletpoint p{
+    font-size: 12px;
+}
+
+.bulletpoint li{
+    margin: 10px auto;
+    position: relative;
+}
+
+.bulletpoint li:before{
+   content : "";
+   position: absolute;
+   top:5px;
+   left: -25px;
+   height: 10px;
+   width: 10px;
+   border-left: 3px solid lightgray;
+   border-radius: 50%;
+}
+
+.bulletpoint{
+    border-left: 2px solid lightgray;
+    padding-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.portfolio img{
+    height: 180px;
+    margin: 7px;
+}
+
+.portfolio{
+    margin-left: 50px;
+}
+
