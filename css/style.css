@@ -9,6 +9,17 @@
 
 h1{
     letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: thistle;
+    text-decoration: underline;
 }
 
 body{
@@ -151,6 +162,11 @@ figcaption{
     margin-left: 5px;
 }
 
+.icon_inter:hover{
+    color:rgb(255, 209, 204);
+    background: white;
+}
+
 .joined_list{
     padding-left: 20px;
 }
@@ -202,4 +218,11 @@ figcaption{
 
 .portfolio{
     margin-left: 50px;
+}
+
+.footer-text{
+    position: relative;
+    top:30%;
+    text-align: left;
+    
 }
