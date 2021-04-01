@@ -174,19 +174,30 @@ figcaption{
 .profile_data li{
     position: relative;
     margin: 0;
-    padding-left: 24px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 10px;
 }
 
-.joined_element:before{
+.joined_list ul{
+    padding-bottom: 10px;
+}
+
+.bullet-name::before{
     content: "";
     position: absolute;
-    top: 22px;
+    top: -4px;
     left: -12px;
     height: 3px;
     width: 3px;
     background: rgb(230, 230, 230);
     border-radius: 50%;
     border: 7px solid gray;
+}
+
+.bullet-name{
+    color: #006363;
 }
 
 .image{
