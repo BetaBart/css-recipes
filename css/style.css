@@ -169,6 +169,7 @@ figcaption{
 
 .joined_list{
     padding-left: 20px;
+    line-height: 6px;
 }
 
 .profile_data li{
@@ -194,10 +195,22 @@ figcaption{
     background: rgb(230, 230, 230);
     border-radius: 50%;
     border: 7px solid gray;
+    opacity: 0.75;
 }
 
 .bullet-name{
     color: #006363;
+}
+
+.bullet-line::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -4px;
+    height: 60px;
+    width: 1px;
+    background: gray;
+    opacity: 0.75;
 }
 
 .image{
