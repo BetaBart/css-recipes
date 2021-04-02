@@ -24,9 +24,9 @@ a:hover{
 
 body{
     background: whitesmoke;
-    color: rgb(58, 57, 57);
+    color: #000000;
     line-height: 22px;
-    width: 800px;
+    width: 1024px;
     height: auto;
     margin: 50px auto;
     position: relative;
@@ -34,22 +34,22 @@ body{
 
 header{
     width: 100%;
-    height: 200px;
-    background: #006363;
+    height: 252px;
+    background: #424c9e;
     color: white;
 }
 
 main{
     width: 35%;
-    height: 700px;
+    height: 1066px;
     float: left;
-    background: rgb(230, 230, 230);
+    background: #f7f7f7;
     padding: 20px 5px 20px 50px;
 }
 
 aside{
     width: 65%;
-    height: 700px;
+    height: 1066px;
     float: left;
     padding: 20px 10px 20px 20px;
     background: white;
@@ -57,16 +57,15 @@ aside{
 
 footer{
     clear: both;
-    height: 50px;
-    background: #006363;
+    height: 72px;
+    background: #424c9e;
     color: white;
     padding-left: 50px;
 }
 .photo{
     width: 20%;
     float: left; 
-    padding: 50px 50px;
-    padding-bottom: 10px;
+    padding: 25px 25px;
 }    
 
 .photo img{
@@ -125,7 +124,7 @@ div.data{
 .icon_circle{
     width: 35px;
     height: 35px;
-    background: #006363;
+    background: #424c9e;
     color: white;
     border-radius: 50%;
     text-align: center;
@@ -153,8 +152,8 @@ figcaption{
     width: 40px;
     height: 40px;
     background:rgb(230, 230, 230);
-    color: #006363;
-    border: 5px solid #006363;
+    color: #424c9e;
+    border: 5px solid #424c9e;
     border-radius: 50%;
     text-align: center;
     padding-top: 5px;
@@ -199,7 +198,7 @@ figcaption{
 }
 
 .bullet-name{
-    color: #006363;
+    color: #424c9e;
 }
 
 .bullet-line::before{
