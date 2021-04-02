@@ -18,11 +18,11 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 26.1px;
-    line-height: 48px;
+    line-height: 30px;
     font-weight: 400;
     position: relative;
-    left: 40px;
-    bottom: 28px;
+    left: 50px;
+    bottom: 40px;
     margin-left: 15px;
 }
 
@@ -46,7 +46,7 @@ a{
 }
 
 a:hover{
-    color: thistle;
+    color: rgb(219, 181, 219);
     text-decoration: underline;
 }
 
@@ -68,19 +68,19 @@ header{
 }
 
 main{
-    width: 35%;
+    width: 346px;
     height: 1066px;
     float: left;
     background: #f7f7f7;
-    padding: 20px 5px 20px 50px;
+    padding: 30px 20px 20px 60px;
 }
 
 aside{
-    width: 65%;
+    width: 678px;
     height: 1066px;
     float: left;
-    padding: 20px 10px 20px 20px;
-    background: white;
+    padding: 30px 10px 20px 20px;
+    background: #fffeff;
 }
 
 footer{
@@ -163,13 +163,17 @@ footer{
 }
 
 .icon_circle{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 46px;
     background: #424c9e;
-    color: white;
+    color: #fffeff;
     border-radius: 50%;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 12px;
+}
+
+.icon_circle i{
+    font-size: 17px;
 }
 
 figure{
@@ -177,27 +181,25 @@ figure{
     float: left;
 }
 
-figcaption{
-    margin-top: 5px;
-    text-align: inherit;
-}
-
 .icon_inter{
-    width: 40px;
-    height: 40px;
-    background:rgb(230, 230, 230);
+    width: 57px;
+    height: 57px;
+    background: #f7f7f7;
     color: #424c9e;
     border: 5px solid #424c9e;
     border-radius: 50%;
     text-align: center;
-    padding-top: 5px;
-    font-size: 20px;
-    margin-left: 5px;
+    padding-top: 10px;
+    font-size: 26px;
 }
 
 .icon_inter:hover{
-    color:rgb(255, 209, 204);
+    color:rgb(252, 199, 157);
     background: white;
+}
+
+.profile_data h4{
+    line-height: 48px;
 }
 
 .joined_list{
@@ -207,28 +209,27 @@ figcaption{
 
 .profile_data li{
     position: relative;
-    margin: 0;
-    margin-bottom: 10px;
     padding-left: 20px;
-    font-size: 12px;
-    line-height: 10px;
+}
+.reference h4{
+    line-height: 22px;
 }
 
 .joined_list ul{
-    padding-bottom: 10px;
+    padding-bottom: 35px;
 }
 
 .bullet-name::before{
     content: "";
     position: absolute;
-    top: -4px;
+    top: 3px;
     left: -12px;
     height: 3px;
     width: 3px;
     background: rgb(230, 230, 230);
     border-radius: 50%;
     border: 7px solid gray;
-    opacity: 0.75;
+    opacity: 0.4;
 }
 
 .bullet-name{
@@ -238,12 +239,16 @@ figcaption{
 .bullet-line::before{
     content: "";
     position: absolute;
-    top: 30px;
+    top: 48px;
     left: -4px;
-    height: 60px;
+    height: 99px;
     width: 1px;
-    background: gray;
-    opacity: 0.75;
+    background: black;
+    opacity: 0.08;
+}
+
+.awwards h4{
+    line-height: 30px;
 }
 
 .image{
@@ -258,7 +263,7 @@ figcaption{
 }
 
 .image:hover{
-    box-shadow: 0 0 15px #039494;
+    box-shadow: 0 0 15px #2a3ef3;
 }
 
 .description{
@@ -275,6 +280,7 @@ figcaption{
 
 .portfolio{
     margin-left: 50px;
+    padding-top: 20px;
 }
 
 .footer-text{
